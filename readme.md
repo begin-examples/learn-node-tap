@@ -1,5 +1,7 @@
 # Learn: JavaScript testing with Node.js & TAP
 
+$BADGE
+
 ## Deploy your own
 
 [![Deploy to Begin](https://static.begin.com/deploy-to-begin.svg)](https://begin.com/apps/create?template=https://github.com/begin-examples/learn-node-tap)
