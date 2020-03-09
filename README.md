@@ -1,4 +1,4 @@
-# Learn an example of Tap for Begin apps
+# JavaScript testing with NodeJS and TAP on Begin.com
 
 ## Deploy your own
 
