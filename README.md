@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # JavaScript testing with NodeJS and TAP on Begin.com
+=======
+# Learn: JavaScript testing with Node.js & TAP
+>>>>>>> Tidying
 
 ## Deploy your own
 
@@ -6,10 +10,12 @@
 
 Deploy your own clone of this app to Begin!
 
+
 ## Getting started
 
 - Install any dependencies: `npm install`
 - Run your new shiny tests: `npm test`
+
 
 ## Reference
 

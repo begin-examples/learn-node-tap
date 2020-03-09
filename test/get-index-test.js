@@ -4,9 +4,9 @@ let sandbox = require('@architect/sandbox')
 let data = require('@begin/data')
 
 // first assertion to start the sandbox environment
-let end 
+let end
 tap.test('sandbox.start', async t => {
-  end = await sandbox.start()
+  await sandbox.start({quiet:true})
   tap.pass()
 })
 
@@ -16,22 +16,22 @@ tap.test('get /', async t => {
   await tiny.get({url})
 })
 
-// test that you can write data with @architect/data library 
+// test that you can write data with @begin/data library
 tap.test('data.set', async t => {
-  let result = await data.set({table: 'tmp'}) //?
+  let result = await data.set({table: 'tmp'})
   t.ok(result.table === 'tmp')
   console.log(result)
 })
 
-// test that you can read data with @architect/data library 
+// test that you can read data with @begin/data library
 tap.test('data.get', async t => {
-  let result = await data.get({table: 'tmp'}) //?
+  let result = await data.get({table: 'tmp'})
   t.ok(result.length == 1)
   console.log(result)
 })
 
 // last assertion to end sandbox
 tap.test('end', async t => {
-  await end()
+  await sandbox.end()
   t.pass()
 })
