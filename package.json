@@ -1,0 +1,19 @@
+{
+  "name": "tape-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing QUIET=1 tap --reporter=terse",
+    "start": "npx sandbox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@architect/sandbox": "^1.7.2",
+    "@begin/data": "^1.2.0",
+    "tap": "^14.10.6",
+    "tiny-json-http": "^7.1.2"
+  }
+}
