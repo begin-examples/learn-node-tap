@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# JavaScript testing with NodeJS and TAP on Begin.com
-=======
 # Learn: JavaScript testing with Node.js & TAP
->>>>>>> Tidying
 
 ## Deploy your own
 
