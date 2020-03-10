@@ -1,4 +1,5 @@
-<img src="https://static.begin.app/learn-node-tap/readme-banner.png" width="788">
+# Learn: testing with Node.js & TAP
+<!-- <img src="https://static.begin.app/learn-node-tap/readme-banner.png" width="788"> -->
 
 $BADGE
 
