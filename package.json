@@ -11,7 +11,7 @@
   "dependencies": {
     "@architect/sandbox": "^1.7.2",
     "@begin/data": "^1.2.0",
-    "tap": "^14.10.6",
+    "tap": "^14.10.7",
     "tiny-json-http": "^7.1.2"
   }
 }
