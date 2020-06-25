@@ -9,7 +9,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@architect/sandbox": "^1.8.1",
+    "@architect/sandbox": "^1.12.6",
     "@begin/data": "^1.2.0",
     "tap": "^14.10.7",
     "tiny-json-http": "^7.1.2"
