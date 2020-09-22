@@ -4,7 +4,6 @@ let sandbox = require('@architect/sandbox')
 let data = require('@begin/data')
 
 // first assertion to start the sandbox environment
-let end
 tap.test('sandbox.start', async t => {
   await sandbox.start({quiet:true})
   tap.pass()
